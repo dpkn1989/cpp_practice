@@ -1,4 +1,6 @@
-#include <iostream>
+#ifndef GENERAL_CONCEPTS_H
+#define GENERAL_CONCEPTS_H
+
 
 class Operation{
        int m_multiplier;
@@ -11,13 +13,4 @@ class Operation{
     }
 };
 
-int main(){
-    std::cout << "Jai Sri Ram!!!" << std::endl;
-    int value;
-    std::cout << "Enter a value to multiply: ";
-    std::cin >> value;
-    Operation op(3);
-    op(value);
-
-    return 0;
-}
+#endif // GENERAL_CONCEPTS_H
